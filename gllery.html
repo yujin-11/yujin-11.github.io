@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+body {
+  background-color: sandybrown;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  width: 100%; 
+  height: 80px;
+  background-color: burlywood;
+}
+ 
+h1{
+  font-size: 20px;
+}
+h2 {
+  font-family: arial;
+  color: saddlebrown;
+  font-size: 30px;
+  line-height: 55px;
+  padding: 20px 0px 0px 0px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  padding: 22px 14px;
+  text-orientation: none;
+  
+}
+
+nav ul li ul {
+  display: block;
+  position: absolute;
+  background-color: burlywood;
+  
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: burlywood;
+  padding: block;
+  border-radius: 4px;
+  
+}
+
+nav ul li:hover ul {
+  display: block;
+  
+}
+
+nav ul li ul li  {
+  border-radius: 4px;
+  padding: 10px;
+ 
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+  background-color: wheat;
+}
+
+ul li img {
+  position: relative;
+  list-style: none;
+}
+
+</head> 
+</style>
+<body>
+  
+<nav>
+<ul>
+  <li><a href="file:///C:/Users/Lloyd/Desktop/Yujin/yjin.html">Home</a></li>
+  <li><a href="file:///C:/Users/Lloyd/Desktop/Yujin/gllery.html">Gallery</a></li>
+  <li><a href="#">Services/Store</a></li>
+  <li><a href="#">Videos</a></li>
+  <li><a href="#">My Portfolio</a>
+   <ul>
+    <li><a href="https://drive.google.com/drive/folders/1j9Ewh1jjMYR3ls1S2ov5s2kwb3_e6_HU?usp=share_link">Week1</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1qaaXwOymY1_lg9YI0Tlc2vR1_giGafix?usp=share_link">Week2</a></li>
+    <li><a href="https://drive.google.com/drive/folders/14rT7wK-xTZ16K0GQaJ7T5dvzIjxcFR5c?usp=share_link">Week3</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1dArMQWpxrrphJzf_kR_0he_DqjJ42IrA?usp=sharing">Week4</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1gzststLZ6IrW1B8SKcTEjUvJKgeVSZOm?usp=share_link">Week5</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1M_jDNxIkf9mbutmxS29AVdHbRfaRsXhy?usp=share_link">Week6</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1Pvxwbj4AdUjzfTDS1qp0BJbUVCkG37mz?usp=share_link">Week7</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1WehSOgBqPePI5V5Nh8hkPdY8Mcf7k6xF?usp=share_link">Week8</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Contact/About</a></li>
+<li><a href="#">Membership/Sign up</a></li>
+<li><a href="#">Search</a></li>
+</ul>
+</nav>
+
+<center><h2>Yujin's Bakery</h2>
+<p>Bake the world a better place</p></center>
+
+<div class="row">
+  <div class="column">
+    <h1><img src="ube-pandesal.jpeg" alt="ubepandesal" height="200" width="200">Ube Pandesal</h1>
+  </div>
+  <div class="column">
+    <h1><img src="ensaimada.jpg" alt="ensaimada" height="200" width="200">Ensaimada</h2>
+  </div>
+  <div class="column">
+    <h1><img src="crinkle.jpg" alt="crinkle" height="200" width="200">Crinkles</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h1><img src="monay.jpeg" alt="monay" height="200" width="200">Monay</h1>
+  </div>
+  <div class="column">
+    <h1><img src="spanishbread.jpeg" alt="spanishbread" height="200" width="200">Spanish Bread</h2>
+  </div>
+  <div class="column">
+    <h1><img src="pandecoco.jpeg" alt="pandecoco" height="200" width="200">Pan De Coco</h1>
+  </div>
+</div>
+
+
+</body>
+</html>
